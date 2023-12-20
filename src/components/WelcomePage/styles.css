@@ -1,0 +1,101 @@
+.welcome-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  padding: 30px 0;
+  background-color: #ffffff;
+  height: 50vh;
+  padding-bottom: 20px;
+}
+
+.intro-section {
+  
+}
+
+.intro-section h1 {
+  font-size: xxx-large;
+  font-family: 'Dosis', sans-serif;
+  font-weight:600;
+}
+
+.intro-section P {
+
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight:400;
+}
+
+.photo-section {
+  max-width: 20%;
+  text-align: right;
+}
+
+.photo-section img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%; /* 如果你想要图片为圆形 */
+}
+
+.resume-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6880f7;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  margin-right: 5PX;
+  width: 50PX;
+  font-family: 'Dosis', sans-serif;
+  font-weight:300;
+}
+
+.resume-button:hover {
+  background-color: #2e3ff4c8;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {  /* 768px 是一个常见的断点，但你可以根据需要调整 */
+  .welcome-container {
+    flex-direction: column;  /* 使子元素垂直堆叠 */
+  }
+
+  .intro-section, .photo-section {
+    width: 100%;  /* 使内容占满整个宽度 */
+    text-align: center;  /* 使文字居中 */
+  }
+
+  .social-icons a {
+    margin: 0 10px;  /* 调整社交图标的间距，使它们在小屏幕上看起来更好 */
+  }
+  .photo-section {
+    max-width: 60%;
+    margin: 20px auto; 
+
+  }
+  .welcome-container {
+  
+    height: 67vh;
+  }
+  
+}
+
+
+
+
+
+

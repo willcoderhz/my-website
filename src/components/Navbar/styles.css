@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.799);
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    
+    transition: background-color 0.3s ease;
+    font-size: large;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+  }
+  
+  nav a:hover {
+   
+    border-bottom: 3px solid rgb(92, 92, 232); /* 3px 代表下划线的粗细，你可以根据需要调整 */
+    display: inline-block; /* 这确保下划线只在文本下方，而不是整个容器宽度 */
+    padding-bottom: 0px; /* 这为下划线和文本之间提供了一些空间 */
+  }
+  

@@ -1,0 +1,66 @@
+.education-container {
+    padding: 0px 0;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .education-container h2 {
+    font-size: 2em;
+    margin-bottom: 0px;
+    border-bottom: 3px solid rgb(92, 92, 232); /* 3px 代表下划线的粗细，你可以根据需要调整 */
+    display: inline-block; /* 这确保下划线只在文本下方，而不是整个容器宽度 */
+    padding-bottom: 5px; /* 这为下划线和文本之间提供了一些空间 */
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:600;
+
+  }
+  
+  .education-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .education-item {
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+  
+  }
+  
+  .education-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:500;
+  }
+  
+  .education-item p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:300;
+  }
+
+  .education-item .image-wrapper {
+    width: 100%;         /* 设置包裹元素的宽度为100% */
+    padding-bottom: 100%;/* 使高度与宽度相等 */
+    position: relative;  /* 设置为相对定位，以便内部的图片可以使用绝对定位 */
+    overflow: hidden;    /* 隐藏超出的部分 */
+    border-radius: 6%;
+    margin-bottom: -90px;
+   
+  }
+
+  .education-item img {
+    width: 35%;         /* 图片宽度为100% */
+    height:35%;      /* 图片高度为100% */
+    object-fit: cover;   /* 图片将被裁剪以填充容器，但保持其宽高比 */
+    display: block;      /* 这将消除图片下方的任何额外空间 */
+    position: absolute;  /* 使用绝对定位填充包裹元素 */
+    top: 32%;
+    left: 32%;
+   
+  }
+  

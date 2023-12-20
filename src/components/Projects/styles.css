@@ -1,0 +1,90 @@
+.projects-container {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .projects-container h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(92, 92, 232); /* 3px 代表下划线的粗细，你可以根据需要调整 */
+    display: inline-block; /* 这确保下划线只在文本下方，而不是整个容器宽度 */
+    padding-bottom: 5px; /* 这为下划线和文本之间提供了一些空间 */
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:500;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-item {
+    width: 300px;
+    margin: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5%;
+    position: relative;  
+  }
+  
+  .project-item h3 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:600;
+  }
+  
+  .project-item p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-align:justify;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:300;
+     
+  }
+  
+  .project-item a {
+    color: rgb(72, 72, 233);
+    position: absolute;  /* 使用绝对定位 */
+    bottom: 10px;        /* 将按钮定位在父元素的底部，可以根据需要调整 */
+    left: 0;             /* 确保按钮在左边对齐，可以根据需要调整 */
+    right: 0;            /* 确保按钮在右边对齐，可以根据需要调整 */
+    text-align: center;  /* 使文本居中 */
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-weight:600;
+  
+  }
+  
+  .project-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .project-item .image-wrapper {
+    width: 100%;         /* 设置包裹元素的宽度为100% */
+    height: 0;           /* 初始化高度为0 */
+    padding-bottom: 100%;/* 使高度与宽度相等 */
+    position: relative;  /* 设置为相对定位，以便内部的图片可以使用绝对定位 */
+    overflow: hidden;    /* 隐藏超出的部分 */
+    border-radius: 6%;
+  }
+  
+  .project-item img {
+    width: 100%;         /* 图片宽度为100% */
+    height: 130%;      /* 图片高度为100% */
+    object-fit: cover;   /* 图片将被裁剪以填充容器，但保持其宽高比 */
+    display: block;      /* 这将消除图片下方的任何额外空间 */
+    position: absolute;  /* 使用绝对定位填充包裹元素 */
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .project-item img:hover {
+    transform: scale(1.03); 
+  }
+  

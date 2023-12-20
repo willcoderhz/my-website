@@ -1,0 +1,35 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.about-intro, .about-skills {
+  padding: 0 50px;
+  max-width: 35%;
+}
+
+.about-skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-skills li {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  border-bottom: 3px solid rgb(92, 92, 232); /* 3px 代表下划线的粗细，你可以根据需要调整 */
+  display: inline-block; /* 这确保下划线只在文本下方，而不是整个容器宽度 */
+  padding-bottom: 5px; /* 这为下划线和文本之间提供了一些空间 */
+}
