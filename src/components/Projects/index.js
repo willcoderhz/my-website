@@ -9,6 +9,15 @@ function Projects() {
         {/* Example of a project */}
         <div className="project-item">
         <div className="image-wrapper">
+        <img src={process.env.PUBLIC_URL + "/image/project13.jpg"} alt="Description of Project 13" />
+        </div>
+          <h3>WillBooking</h3>
+          <p>"Willbooking" is a modern online hotel booking application, built with React and Node.js for a responsive user interface and efficient backend. It uses MongoDB for flexible and robust data management, featuring real-time availability, multiple payment options, and an intuitive search function.</p>
+          <a href="https://willcoderhz.github.io/wbooking" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div className="project-item">
+        <div className="image-wrapper">
         <img src={process.env.PUBLIC_URL + "/image/project12.jpg"} alt="Description of Project 10" />
         </div>
           <h3>Awesome Resume</h3>
@@ -23,14 +32,7 @@ function Projects() {
           <p>Shuihu Hero Leaflet is a web application showcasing heroes from the Chinese classic, "Water Margin". Users can explore each hero's profile, view images, and uncover poetic descriptions and tales by interacting with the interface, offering a blend of traditional storytelling with modern technology.</p>
           <a href="https://willcoderhz.github.io/shuihu/" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
-        <div className="project-item">
-        <div className="image-wrapper">
-        <img src={process.env.PUBLIC_URL + "/image/project11.jpg"} alt="Description of Project 11" />
-        </div>
-          <h3>WeiTalk</h3>
-          <p>Wetalk is a user-friendly, real-time chat application that enables seamless communication through a clean and intuitive interface, fostering connections and interactions in an engaging online environment.</p>
-          <a href="https://github.com/willcoderhz/WeiChat" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
+    
         <div className="project-item">
         <div className="image-wrapper">
         <img src={process.env.PUBLIC_URL + "/image/project1.jpg"} alt="Description of Project 1" />
@@ -63,14 +65,6 @@ function Projects() {
           <h3>Pomodoro Timer</h3>
           <p>The Pomodoro Timer is a productivity tool based on the Pomodoro Technique, helping users work in focused intervals with scheduled breaks. It's designed to boost efficiency and manage work time effectively.</p>
           <a href="https://willcoderhz.github.io/tomato-timer/" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-        <div className="project-item">
-        <div className="image-wrapper">
-        <img src={process.env.PUBLIC_URL + "/image/project5.jpg"} alt="Description of Project 5" />
-        </div>
-          <h3>Calculator</h3>
-          <p>This Calculator is a versatile tool that handles both basic arithmetic and complex mathematical operations. Its user-friendly interface ensures quick calculations with accurate results.</p>
-          <a href="https://github.com/willcoderhz/Calculator" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         <div className="project-item">
         <div className="image-wrapper">
