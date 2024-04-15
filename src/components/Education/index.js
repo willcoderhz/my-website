@@ -11,7 +11,7 @@ function Education() {
         <div className="image-wrapper">
         <img src={process.env.PUBLIC_URL + "/image/school1.jpg"} alt="Description of School 1" />
         </div>
-          <h3>Northern Arizona University</h3>
+          <h3>Georgia Institute of Technology</h3>
           <p>Master of Computer Science</p>
         </div>
         {/* You can add more education entries in a similar manner */}
