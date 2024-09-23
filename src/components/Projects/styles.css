@@ -38,12 +38,13 @@
   }
   
   .project-item p {
-    font-size: 1em;
+    font-size: 1.1em;
     margin-bottom: 15px;
     text-align:justify;
     font-family: 'Chakra Petch', sans-serif;
     font-weight:300;
-     
+    line-height: 1.6em;
+    word-spacing: 0.05em;
   }
   
   .project-item a {
