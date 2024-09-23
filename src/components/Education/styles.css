@@ -11,7 +11,7 @@
     display: inline-block; /* 这确保下划线只在文本下方，而不是整个容器宽度 */
     padding-bottom: 5px; /* 这为下划线和文本之间提供了一些空间 */
     font-family: 'Chakra Petch', sans-serif;
-    font-weight:600;
+    font-weight:500;
 
   }
   

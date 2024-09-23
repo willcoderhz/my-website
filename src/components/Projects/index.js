@@ -10,6 +10,15 @@ function Projects() {
         {/* Example of a project */}
         <div className="project-item">
         <div className="image-wrapper">
+        <img src={process.env.PUBLIC_URL + "/image/project4.jpg"} alt="Description of Project 4" />
+        </div>
+          <h3>Zenic Fantasy</h3>
+          <p>Calming app, ambient sounds, focus, relaxation, sleep, noise masking, with super cute handmade pixel art.</p>
+          <a href="https://willcoderhz.github.io/white-noise/" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+
+        <div className="project-item">
+        <div className="image-wrapper">
         <img src={process.env.PUBLIC_URL + "/image/project1.jpg"} alt="Description of Project 1" />
         </div>
           <h3>WillBooking</h3>
@@ -36,20 +45,9 @@ function Projects() {
           <a href="https://willcoderhz.github.io/gomoku/" target="_blank" rel="noopener noreferrer">View Project</a>
         </div>
         {/* You can add more projects in a similar manner */}
-        <div className="project-item">
-        <div className="image-wrapper">
-        <img src={process.env.PUBLIC_URL + "/image/project4.jpg"} alt="Description of Project 4" />
-        </div>
-          <h3>Zenic Fantasy</h3>
-          <p>Calming app, ambient sounds, focus, relaxation, sleep, noise masking, with super cute handmade pixel art.</p>
-          <a href="https://willcoderhz.github.io/white-noise/" target="_blank" rel="noopener noreferrer">View Project</a>
-        </div>
-        
-       
-      
-        
-
       </div>
+
+      
     </div>
   );
 }
