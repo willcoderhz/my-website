@@ -13,7 +13,7 @@ function WelcomePage() {
         <p>Passionate Frontend Engineer.</p>
         <p>Driven by Design and Coding.</p>
         <p>Tech Stack : HTML, CSS, JavaScript, React, Node.js, SQL</p>
-        <a href="https://drive.google.com/file/d/1xms6PzxWo-suqIUhuRlYy6eJBjMnChO9/view?usp=sharing" className="resume-button">Resume</a>
+        <a href="https://drive.google.com/file/d/1Dxp-cM6w-ll51SmMLzBGuOpUMfOdvumc/view?usp=sharing" className="resume-button">Resume</a>
         <a href="mailto:paulyao22@gmail.com" className="resume-button">E-Mail</a>
         <div className="social-icons">
         <a href="https://www.linkedin.com/in/will-yao-0a8a41271/" target="_blank" rel="noopener noreferrer">
